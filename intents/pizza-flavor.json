@@ -1,0 +1,68 @@
+{
+  "id": "e10f1f1e-4c93-498c-9af4-9496b512b179",
+  "name": "pizza-flavor",
+  "auto": true,
+  "contexts": [
+    "pizza-crust"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-flavor",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "71ccab15-a11d-4784-ae50-ec2fbbf73d42",
+          "name": "pizza_type",
+          "required": false,
+          "dataType": "@pizza_Type",
+          "value": "$pizza_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks for your response. now we get your details. Type Ok to continue."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

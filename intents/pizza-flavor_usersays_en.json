@@ -1,0 +1,97 @@
+[
+  {
+    "id": "27a3b4ef-031e-403c-a844-7d113950ea76",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "corn",
+        "meta": "@pizza_Type",
+        "alias": "pizza_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "acc20a16-9ca6-4c86-a955-345c27e5272f",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "Hawaiian",
+        "meta": "@pizza_Type",
+        "alias": "pizza_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c26087dd-6dc7-4165-851f-28d421b23521",
+    "data": [
+      {
+        "text": "i want ",
+        "userDefined": false
+      },
+      {
+        "text": "capsicum",
+        "meta": "@pizza_Type",
+        "alias": "pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af765abb-d984-414a-870f-21368d987f16",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "BBQS",
+        "meta": "@pizza_Type",
+        "alias": "pizza_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a81bc8df-8ed0-4020-87e4-3f6f513168d0",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese",
+        "meta": "@pizza_Type",
+        "alias": "pizza_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

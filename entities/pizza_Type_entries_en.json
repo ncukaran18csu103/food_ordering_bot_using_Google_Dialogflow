@@ -1,0 +1,43 @@
+[
+  {
+    "value": "Hawaiian",
+    "synonyms": [
+      "hawaiian",
+      "hawaian"
+    ]
+  },
+  {
+    "value": "veggie",
+    "synonyms": [
+      "veggie",
+      "vegetable"
+    ]
+  },
+  {
+    "value": "capsicum",
+    "synonyms": [
+      "capsicum",
+      "Capsicum"
+    ]
+  },
+  {
+    "value": "Corn",
+    "synonyms": [
+      "Corn",
+      "corn"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  },
+  {
+    "value": "BBQ",
+    "synonyms": [
+      "BBQ",
+      "BBQS"
+    ]
+  }
+]

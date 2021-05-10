@@ -1,0 +1,67 @@
+{
+  "id": "c76e97e5-d9e3-42af-b745-34ef98b52085",
+  "name": "pizza-time",
+  "auto": true,
+  "contexts": [
+    "pizza-customer"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-time",
+          "lifespan": 5
+        },
+        {
+          "name": "pizza-customer",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4812eab1-af36-405e-9cf5-a93d0c75a7d7",
+          "name": "order_time",
+          "required": true,
+          "dataType": "@sys.age",
+          "value": "$order_time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter time for delivery?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "thanks for your details we will make you delivery on $order_time."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

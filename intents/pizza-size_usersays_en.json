@@ -1,0 +1,93 @@
+[
+  {
+    "id": "d1949fb7-1e87-4dfa-9f0a-8c268f0d952b",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "personal",
+        "meta": "@pizz-size",
+        "alias": "pizz-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ef272eb-8dcd-4cb9-986d-e01828b6beb9",
+    "data": [
+      {
+        "text": "extra large",
+        "meta": "@pizz-size",
+        "alias": "pizz-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c77b555-f0be-4d9d-8e1e-e7f075bd1edd",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "meta": "@pizz-size",
+        "alias": "pizz-size",
+        "userDefined": true
+      },
+      {
+        "text": " size",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6fd15370-dc23-48f8-8dcd-e732af7346b5",
+    "data": [
+      {
+        "text": "regular",
+        "meta": "@pizz-size",
+        "alias": "pizz-size",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f506ee6-ad3e-4956-a747-bb516c6ca8fa",
+    "data": [
+      {
+        "text": "give me ",
+        "userDefined": false
+      },
+      {
+        "text": "regular",
+        "meta": "@pizz-size",
+        "alias": "pizz-size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

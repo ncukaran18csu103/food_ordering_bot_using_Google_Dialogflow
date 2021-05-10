@@ -1,0 +1,167 @@
+{
+  "id": "e66325d6-e4a8-41bc-abb1-5c0096f05c78",
+  "name": "pizza-customer",
+  "auto": true,
+  "contexts": [
+    "pizza-crust"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8a4ed111-6435-4ddd-bd7f-dfadef21d509",
+          "name": "firstname",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$firstname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your first name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f70eb25f-f90f-40b2-9d3d-edb86af0c9fc",
+          "name": "lastname",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$lastname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your  last name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2d786da5-1a3f-4aa9-a627-fb926c7e1a2c",
+          "name": "phoneno",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$phoneno",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your Phone number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7c9e7819-e737-4597-9955-82867746b006",
+          "name": "code",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$code",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter you postal code?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b40d614d-5893-4d41-93e9-9812571b262e",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter time ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3fc6f804-b5fa-465c-afa0-28d60d1c0b5c",
+          "name": "city_name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$city_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter city name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Thanks $firstname $lastname",
+          "replies": [
+            "Continue yes",
+            "Continue no"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order is placed Thanks $firstname $lastname we will be contact you at the time of delivery $phoneno at $time with city $city_name (code $code)"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

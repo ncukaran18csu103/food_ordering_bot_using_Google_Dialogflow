@@ -1,0 +1,73 @@
+{
+  "id": "17432eaa-702d-4903-b370-be2657b9680b",
+  "name": "pizza-size",
+  "auto": true,
+  "contexts": [
+    "pizza-start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-size",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e8e5730c-5799-47ad-a25e-011fd4be67be",
+          "name": "pizz-size",
+          "required": false,
+          "dataType": "@pizz-size",
+          "value": "$pizz-size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "Enter your crust.",
+          "replies": [
+            "Hand tossed",
+            "thin",
+            "cheese"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can i know about your crust?(hand tossed ,cheese  ,thin)"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

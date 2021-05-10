@@ -1,0 +1,61 @@
+{
+  "id": "658acaf8-bb35-498f-9c5e-9bf9f6bd7ab5",
+  "name": "pizza-start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-start",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "telegram",
+          "title": "choose your pizza\u0027s size",
+          "replies": [
+            "regular",
+            "personal",
+            "large",
+            "extra large"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Yes what size do you want (please choose your  pizza\u0027s size regular, personal ,large, extra large)",
+            "please choose your pizza\u0027s size regular, personal ,large, extra large",
+            "choose size [regular, personal ,large, extra large]",
+            "what size of pizza you want (please choose you pizza\u0027s size  regular, personal ,large, extra large)",
+            "We have pizza what size you want ?   [regular, personal ,large, extra large]"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

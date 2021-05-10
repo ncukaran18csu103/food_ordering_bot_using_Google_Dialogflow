@@ -1,0 +1,9 @@
+{
+  "id": "c7b20e1a-8991-4f8f-b42f-88e4f4f54868",
+  "name": "pizz-size",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

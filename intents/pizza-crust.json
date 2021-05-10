@@ -1,0 +1,67 @@
+{
+  "id": "cf97b312-b957-4d44-b7ab-a609f9bb4c64",
+  "name": "pizza-crust",
+  "auto": true,
+  "contexts": [
+    "pizza-size"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza-crust",
+          "lifespan": 5
+        },
+        {
+          "name": "pizza-size",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ebaf203c-c880-4a05-9b43-0103b3ee5214",
+          "name": "pizza-crust",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "value": "$pizza-crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can i get the flavor that you want?(Hawaiian , veggie ,capsicum , Corn , BBQ , chicken)",
+            "choose your flavor ? Hawaiian , veggie , capsicum, Corn ,BBQS",
+            "can I know you flavor ? Hawaiian , veggie , capsicum , Corn ,BBQS",
+            "Can I know your taste ? Hawaiian , veggie , capsicum , Corn ,BBQS"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

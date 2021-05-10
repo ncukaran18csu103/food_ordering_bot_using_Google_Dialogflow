@@ -1,0 +1,56 @@
+{
+  "id": "695080df-a67d-40c8-b97f-d676fa5ea23a",
+  "name": "Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "3",
+          "platform": "telegram",
+          "imageUrl": "https://www.google.com/url?sa\u003di\u0026url\u003dhttps%3A%2F%2Fwww.eweek.com%2Finnovation%2Fit-science-case-study-domino-s-becomes-an-e-commerce-pizza-maker\u0026psig\u003dAOvVaw0wL2btFytYnZBURuPEBTzb\u0026ust\u003d1620627826232000\u0026source\u003dimages\u0026cd\u003dvfe\u0026ved\u003d0CAIQjRxqFwoTCPCC7qP7u_ACFQAAAAAdAAAAABAD",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! How can I help you",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

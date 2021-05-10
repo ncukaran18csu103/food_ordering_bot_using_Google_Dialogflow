@@ -1,0 +1,30 @@
+[
+  {
+    "value": "personal",
+    "synonyms": [
+      "personal",
+      "small",
+      "5 inches"
+    ]
+  },
+  {
+    "value": "regular",
+    "synonyms": [
+      "regular"
+    ]
+  },
+  {
+    "value": "large",
+    "synonyms": [
+      "large",
+      "big"
+    ]
+  },
+  {
+    "value": "extra large",
+    "synonyms": [
+      "extra large",
+      "very large"
+    ]
+  }
+]
